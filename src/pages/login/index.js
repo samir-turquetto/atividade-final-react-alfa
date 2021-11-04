@@ -2,8 +2,6 @@ import { useState } from "react";
 import DocumentTitle from "../../components/DocumentTitle/DocumentTitle";
 import "./login.css";
 
-// uncontrolled
-
 export default function PagesLogin() {
   const [value, setValue] = useState(
     () => window.localStorage.getItem("github_username") || ""

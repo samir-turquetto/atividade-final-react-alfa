@@ -5,6 +5,12 @@
   border-radius: 5px;
   font-size: 0.9rem;
   padding: 1rem;
+  cursor: pointer;
+}
+
+.RepositoryCard:hover,
+.RepositoryCard--selected {
+  background-color: #282a36;
 }
 
 .RepositoryCard h3 {

@@ -1,4 +1,4 @@
-.RepositoryList {
+.IssueList {
   width: 500px;
   border-radius: 10px;
   overflow: hidden;
@@ -6,18 +6,18 @@
   background-color: #44475a;
 }
 
-.RepositoryList>h3 {
+.IssueList>h3 {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
   padding: 0 1rem;
 }
 
-.RepositoryList>h3 span {
+.IssueList>h3 span {
   font-size: 0.8rem;
   margin-left: 1rem;
 }
 
-.RepositoryList__content {
+.IssueList__content {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
